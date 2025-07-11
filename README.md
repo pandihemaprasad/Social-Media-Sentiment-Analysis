@@ -1,5 +1,4 @@
 Social-Media-Sentiment-Analysis
-📊 Tweet Sentiment Analysis using TextBlob
 DESCRIPTION :
 This project performs sentiment analysis on a collection of tweets using Python and the TextBlob library. It is designed to automatically determine whether the sentiment expressed in each tweet is positive, negative, or neutral. This kind of analysis can help businesses, researchers, and analysts understand public opinion about specific topics, products, services, or trends by analyzing large volumes of text data from social media.
 
