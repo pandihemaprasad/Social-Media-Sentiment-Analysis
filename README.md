@@ -25,10 +25,10 @@ textblob: For sentiment analysis
 matplotlib: For data visualization
 pip install pandas textblob matplotlib
 WORKING PRINCIPLE :
-1. Load the Data
+1. Load the Data:
 The script begins by loading a CSV file containing tweets from a specified file path.
 
-2. Clean the Text
+2. Clean the Text:
 Tweet texts are cleaned using regular expressions and basic string manipulation. The cleaning steps include:
 
 Removing URLs
@@ -41,7 +41,7 @@ Converting text to lowercase
 
 This step helps reduce noise in the data and improve the accuracy of sentiment detection.
 
-3. Sentiment Analysis
+3. Sentiment Analysis:
 Each cleaned tweet is analyzed using TextBlob, which returns a polarity score:
 
 A score > 0 indicates a positive sentiment.
@@ -52,7 +52,7 @@ A score of 0 indicates a neutral sentiment.
 
 The sentiment label is stored in a new column in the DataFrame called sentiment.
 
-4. Visualization
+4. Visualization:
 A bar plot is generated to show the number of tweets in each sentiment category. The bars are color-coded:
 
 Green for positive
